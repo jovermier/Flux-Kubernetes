@@ -1,1 +1,0 @@
-Once the kyverno policy is applied, the ingress-nginx controller service must be deleted and recreated to apply the policy changes so that it listens on TCP/UDP 32400.

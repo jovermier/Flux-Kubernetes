@@ -10,3 +10,4 @@ bin/
 */.terraform*
 talos/manifests/raw
 talos/manifests/presigned-urls
+/backup

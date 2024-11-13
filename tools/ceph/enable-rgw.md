@@ -21,7 +21,7 @@ On one node, add the following lines to `/etc/pve/ceph.conf`
     rgw_thread_pool_size = 1024
     rgw_cache_enabled = true
     rgw_cache_lru_size = 1000000
-    rgw_dns_name = s3.christensencloud.us
+    rgw_dns_name = s3.innovativeprospects.com
     rgw_trust_forwarded_https = true
     rgw_zone = default
 
@@ -33,7 +33,7 @@ On one node, add the following lines to `/etc/pve/ceph.conf`
     rgw_thread_pool_size = 1024
     rgw_cache_enabled = true
     rgw_cache_lru_size = 1000000
-    rgw_dns_name = s3.christensencloud.us
+    rgw_dns_name = s3.innovativeprospects.com
     rgw_trust_forwarded_https = true
     rgw_zone = default
     
@@ -45,7 +45,7 @@ On one node, add the following lines to `/etc/pve/ceph.conf`
     rgw_thread_pool_size = 1024
     rgw_cache_enabled = true
     rgw_cache_lru_size = 1000000
-    rgw_dns_name = s3.christensencloud.us
+    rgw_dns_name = s3.innovativeprospects.com
     rgw_trust_forwarded_https = true
     rgw_zone = default
 ```

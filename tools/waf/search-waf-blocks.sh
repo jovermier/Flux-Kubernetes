@@ -15,7 +15,7 @@ fi
 # Check if at least one search term is provided
 if [[ -z "$2" ]]; then
   echo "Usage: $0 <search-term>"
-  echo "Example: $0 'christensencloud.us|cyber-engine.com|siteclouds.net'"
+  echo "Example: $0 'innovativeprospects.com|cyber-engine.com|siteclouds.net'"
   exit 1
 fi
 

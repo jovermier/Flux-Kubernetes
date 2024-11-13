@@ -16,10 +16,10 @@ fi
 
 echo "Continuing with context $current_context..."
 
-export GITHUB_TOKEN=$(op item get "GitHub Personal Access Token" --vault "HomeLab K8S" --format json | jq '.fields[2].value' | tr -d '"')
+# export GITHUB_TOKEN=$(op item get "GitHub Personal Access Token" --vault "HomeLab K8S" --format json | jq '.fields[2].value' | tr -d '"')
 
 flux bootstrap github \
-  --owner=christensenjairus \
+  --owner=jovermier \
   --repository=Flux-Kubernetes \
   --branch=main \
   --path=./clusters/$current_context \
@@ -27,4 +27,4 @@ flux bootstrap github \
   --personal #\
   #--toleration-keys="node-role.kubernetes.io/control-plane"
 
-unset GITHUB_TOKEN
+# unset GITHUB_TOKEN

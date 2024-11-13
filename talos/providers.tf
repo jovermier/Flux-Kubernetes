@@ -28,7 +28,7 @@ terraform {
     region = "default"
 
     endpoints = {
-      s3 = "https://s3.christensencloud.us"
+      s3 = "https://s3.innovativeprospects.com"
     }
 
     use_path_style              = true
@@ -43,7 +43,7 @@ provider "aws" {
   region = "default"
 
   endpoints {
-    s3 = "https://s3.christensencloud.us"
+    s3 = "https://s3.innovativeprospects.com"
   }
 
   skip_credentials_validation = true

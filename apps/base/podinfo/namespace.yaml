@@ -4,4 +4,3 @@ metadata:
   name: podinfo
   labels:
     toolkit.fluxcd.io/tenant: dev-team
-    goldilocks.fairwinds.com/enabled: "true"

@@ -157,7 +157,7 @@ variable "clusters" {
       networking                       = {
         bridge                         = "vmbr0"
         tailscale_domain               = "tailcaf83.ts.net"
-        dns_search_domain              = "christensencloud.us"
+        dns_search_domain              = "innovativeprospects.com"
         vlan_name                      = "ALPHA"
         vlan_id                        = 100
         assign_vlan                    = false
@@ -285,7 +285,7 @@ variable "clusters" {
       networking                       = {
         bridge                         = "vmbr0"
         tailscale_domain               = "tailcaf83.ts.net"
-        dns_search_domain              = "christensencloud.us"
+        dns_search_domain              = "innovativeprospects.com"
         assign_vlan                    = true
         create_vlan                    = true
         vlan_name                      = "BETA"
@@ -413,7 +413,7 @@ variable "clusters" {
       networking                       = {
         bridge                         = "vmbr0"
         tailscale_domain               = "tailcaf83.ts.net"
-        dns_search_domain              = "christensencloud.us"
+        dns_search_domain              = "innovativeprospects.com"
         assign_vlan                    = true
         create_vlan                    = true
         vlan_name                      = "GAMMA"

@@ -1,4 +1,4 @@
-apiVersion: helm.toolkit.fluxcd.io/v2beta2
+apiVersion: helm.toolkit.fluxcd.io/v2
 kind: HelmRelease
 metadata:
   name: podinfo
@@ -24,11 +24,4 @@ spec:
       tag: 7.0.6
     ingress:
       enabled: true
-      className: nginx-private
-      annotations:
-        nginx.ingress.kubernetes.io/custom-http-errors: "400,401,403,404,405,407,408,409,410,411,412,413,418,429,500,502,503,504,505"
-      hosts:
-        - host: podinfo.christensencloud.us
-          paths:
-            - path: /
-              pathType: ImplementationSpecific
+      className: nginx

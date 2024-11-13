@@ -1,7 +1,7 @@
 #!/bin/bash
 
 NAMESPACE="ingress-nginx-public"
-WEBSITES="christensencloud.us|cyber-engine.com|siteclouds.net"
+WEBSITES="innovativeprospects.com|cyber-engine.com|siteclouds.net"
 BASE_LOG_DIR="/audit-logs"
 LOG_DIR="${BASE_LOG_DIR}/${1:-}"  # Append the passed argument as a suffix or use just the base log directory if no argument is passed
 POD_NAME=$(kubectl get pods -n $NAMESPACE -l app.kubernetes.io/name=ingress-nginx --output=jsonpath='{.items[0].metadata.name}')
